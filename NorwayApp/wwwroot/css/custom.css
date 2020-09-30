@@ -1,0 +1,121 @@
+﻿/* Header*/
+html,
+body
+{
+    height: 100%;
+}
+
+.navbar-brand {
+    font-family:'Monoton', cursive;
+    font-weight: 500;
+    font-size:35px;
+    color:orange !important;
+}
+
+#cover {
+    height: 100%;
+    background-image: url('../image/banner-bg.jpg');
+    opacity: 0.9;
+    height: 650px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top{
+    padding-left:85px;
+    padding-right:70px;
+}
+
+.travel-card {
+    background: #fff;
+    width: 90%;
+    margin: 10px auto;
+    margin-top:200px;
+    padding:10px;
+}
+.from-station-input input, .to-station-input input {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin-bottom:15px;
+    }
+
+.to-station-input, .retning {
+        display: none;
+    }
+
+.from-station-card div, .to-station-card div {
+    width: 100%;
+    text-align: left;
+}
+
+.from-station-card, .to-station-card {
+    background: #007bff36;
+    padding: 5px;
+    display: none;
+    margin-bottom: 5px;
+}
+.station-title a {
+    float: right;
+    text-decoration: underline;
+    color: #222222;
+    margin-right: 15px;
+}
+.station-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a.nav-link{
+    font-size:18px;
+    color: darkslategray !important;
+    transition: color 0.5s ease;
+}
+a.nav-link:hover{
+    color:gray !important;
+}
+.article{
+    margin-top:45px;
+}
+.footer-menu{
+    margin-top:45px;
+}
+#footer {
+    background-color: #dedede89;
+    padding:15px;
+}
+#fraStasjonListe > ul, #tilStasjonListe > ul {
+    padding: 0px;
+}
+
+#fraStasjonListe > ul > li, #tilStasjonListe > ul > li {
+       display: block;
+        cursor: pointer;
+        padding: 8px;
+        width: 100%;
+        margin: 4px 0px;
+        background: #dedede;
+}
+.bytt {
+    width: 30px;
+    height: 30px;
+    margin: 0px auto;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    z-index: 20000;
+    position: relative;
+    background: url(../image/bytt.png) no-repeat;
+    background-size: 30px;
+    display:none;
+}
+    .bytt:hover {
+        opacity: 0.6;
+    }
+
+    label{
+    font-size:18px;
+    color:#222222 !important;
+    
+}
