@@ -1,0 +1,3 @@
+2020-10-04T20:39:44.7347589+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-10-04T20:39:44.7967043+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-10-04T20:39:44.8172004+02:00  [INF] Content root path: "C:\Users\fatma\source\repos\NorwayApp\NorwayApp" (b5d60022)

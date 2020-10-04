@@ -13,10 +13,8 @@ body
 }
 
 #cover {
-    height: 100%;
     background-image: url('../image/banner-bg.jpg');
     opacity: 0.9;
-    height: 650px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -28,7 +26,7 @@ body
     padding-right:70px;
 }
 
-.travel-card {
+.travel-card, .kommendeAvganger, .kvittering {
     background: #fff;
     width: 90%;
     margin: 10px auto;
@@ -39,12 +37,12 @@ body
         display: block;
         width: 100%;
         padding: 15px;
-        margin-bottom:15px;
+        margin-bottom:0px;
     }
 
-.to-station-input, .retning {
-        display: none;
-    }
+.to-station-input, .retning, #datepickerTur, #datepickerRetur, .velgReisende, .seAvganger, .kommendeAvganger, .kvittering {
+    display: none;
+}
 
 .from-station-card div, .to-station-card div {
     width: 100%;
@@ -110,12 +108,54 @@ a.nav-link:hover{
     background-size: 30px;
     display:none;
 }
-    .bytt:hover {
-        opacity: 0.6;
-    }
+.bytt:hover {
+    opacity: 0.6;
+}
 
-    label{
+label{
     font-size:18px;
     color:#222222 !important;
     
+}
+.velgReisende .btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 0px;
+    font-weight: bolder;
+    color: #ffffff!important;
+    background: #999999;
+}
+.velgReisende .btn:hover {
+    background: #000099;
+}
+.velgReisende input{
+    max-width: 60px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.velgReisende .form-group {
+    clear: both;
+    min-height: 60px;
+    border-bottom: 1px solid #dedede;
+}
+
+.velgReisende label{
+    float:left;
+}
+
+.velgReisende {
+    padding: 10px 20px 0px 20px;
+    border: 1px solid #dedede;
+    margin: 16px auto;
+    width: 90%;
+}
+#totalReisende {
+    margin-bottom: 20px;
+}
+
+.table {
+    font-size: 24px;
 }
